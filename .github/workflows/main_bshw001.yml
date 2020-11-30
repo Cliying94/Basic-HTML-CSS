@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'bshw001'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9c5d9aa5b50c47f1bb4c1bbb5324ec7b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e4dd33b4fd604b7b8030dfa5bcf2f37e }}
         package: ./published/
