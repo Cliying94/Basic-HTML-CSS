@@ -4,8 +4,452 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style type="text/css">
+    .body{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .header{
+        width: 1351px;
+        height: 101px;
+        display: flex;
+        margin: auto;
+        align-items: center;        
+    }
+        .header-pages{
+            width: 562.91px;
+            height: 38.5px;
+            display: flex; 
+        }
+            .header-pages__page{
+                padding: 16px;                
+            }
+        .header-logo{
+            width: 255.16px;
+            height: 44.9px;  
+            display: flex;
+            align-items: center;  
+            justify-content: center;         
+        }
+            .header-logo img{
+                widows: 160px;
+                height: 44.9px;
+                padding:15px;  
+            }
+        .header-icons{
+            width: 562.91px;
+            height: 45px;
+            padding: 15px;
+            box-sizing: border-box;
+            position: relative; 
+        }
+            .header-icon-direction{
+                width: 115.65px;
+                height: 40px;
+                display: flex;
+                position: absolute; 
+                right:15px;
+            }
+                .header-icons__icon img{
+                    padding: 5px;
+                    width: 25px;
+                    height: 25px;
+                }
+        .sectionblock{
+            width: 1351px;
+            height: auto;
+            display: flex;
+            margin: auto;
+        }
+        .container{
+            width: 1351px;
+            margin: 100px,50px;
+        }       
+        .banner{
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+        .banner .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .maintitle{
+            color: green;
+            font-size: 40px;
+            text-align: center;
+        }
+        .banner .maintitle{
+            width: 50%;
+        }
+        .banner .pic{
+            width: 50%;
+        }
+        .banner .container img{
+            width: 580px;
+        }
+        .banner .maintitle h3{
+            color: black;
+            font-size: 72px;
+        }
+        .banner .maintitle p{
+            color: black;
+            font-size: 20x;
+        }
+        .banner .maintitle a{
+            width: 50px;
+            height: 30px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            font-size: 12px;
+        }
+        .banner .maintitle a:hover{
+            background-color: lightskyblue;
+        }
+        .brandimage .discrlbe{
+            color: darkgray;
+            font-style: italic;
+            text-align: center;
+        }
+
+
+
+        .point {
+            width: 100%;
+            display: flex;  
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;  
+            }
+        .point .pointblock{
+            width:380px;
+            margin: auto;                      
+        }
+        .point .pointblock img{
+            width: 380px;
+        }
+             .point .pointblock .discrlbe{
+                 width:300px;
+                box-sizing: border-box;
+            }
+            .point .pointblock:nth-child(1)
+            {                
+                text-align:right;
+            }
+            .point .pointblock .discrlbe h4{
+                width: 100%;
+                font-style: strong;
+            }
+
+        .itemlistblock{
+            width: 100%;
+            display: flex;   
+            flex-wrap: wrap;  
+            margin: auto;
+            justify-content: center;
+            align-items: center;       
+        }
+        .itemlistblock .item{
+            width: 330px;
+            margin: 40px;   
+            text-align: center;       
+        }
+        .itemlistblock .item img{
+            width: 330px;
+            background-color:#eee;
+        }
+        
+        .video{
+            width: 100%;
+            height: 603.44px;
+            background-image: url(SunplantImages/asset\ 43.png);            
+            background-size: 1351px;
+    
+        }
+        .video .container{
+            display: flex;
+            flex-wrap: wrap;  
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .video .maintitle{
+            width: 645px;
+        }
+        .video .pic{
+            width: 645px;       
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        .video .pic img{
+
+            width: 645.5px;
+        }
+        .ins .container .pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ins{
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .ins .container .pic img{
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+        }
+        .footer{
+            width: 1351px;
+            height: 348.9px;
+            background-color: #eee;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer .logo{
+            width: 160px;
+            margin-top: 0%;
+            height: 80px;          
+
+        }
+        .footer .logo img{
+            width: 160px;  
+        }
+        .footer.info{
+            height: 24px;
+        }
+        .footer a{
+            text-decoration: none;
+            color:black;
+            margin: 20px;
+        }
+        .footer .icon{
+            margin:25px;
+            height: 40px;
+            display: flex;
+        }
+        .footer .icon .circleshape
+        {            
+            width: 45px;
+            height: 45px;
+            border-radius: 360%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            margin: 10px;        
+
+        }
+        .footer .copyright{
+            width: auto;
+            height: 50px;
+            color: darkgrey;
+        }
+        
+
+    
+    </style>
 </head>
 <body>
+    <section class="header">
+        <div class="header-pages">
+            <div class="header-pages__page">Home</div>
+            <div class="header-pages__page">Shop</div>
+            <div class="header-pages__page">Featured</div>
+            <div class="header-pages__page">Pages</div>
+            <div class="header-pages__page">Element</div>
+        </div>
+        <div class="header-logo"><img src="SunplantImages/asset 6.png" alt="Sunplant">
+        </div>
+        <div class="header-icons">
+            <div class="header-icon-direction">
+                <div class="header-icons__icon"><img src="SunplantImages/search.svg" alt=""></div>
+                <div class="header-icons__icon"><img src="SunplantImages/profile.svg" alt=""></div>
+                <div class="header-icons__icon"><img src="SunplantImages/Cart.svg" alt=""></div>
+            </div>   
+        </div>       
+    </section>        
+    <section class="sectionblock banner">
+        <div class="container">
+            <div class="maintitle">
+                <h3>Colloct New<br>
+                    Beautiful</h3>
+                <p>from</p>
+                <a href="#">SHOP NOW</a>
+            </div>
+            <div class="pic">
+                <img src="SunplantImages/asset 9.png" alt="">
+            </div>
+        </div>
+    </section> 
+    <section class="sectionblock brandimage">
+        <div class="container">
+            <div class="text">
+                <div class="maintitle">
+                    <h3>The important benefits of<br>
+                        greenery for the environment and health</h3>
+                </div>
+                <div class="discrlbe">
+                    <p>Trees have always been considered as "lungs" of the earth. Planting lots of trees helps provide a great deal of oxygen for us to breathe.<br>
+                        On average, one tree can provide enough oxygen for four people. At the same time they also absorb C02, ammonia, S02, .. in the world!</p>
+                </div>
+            </div>
+            <div class="point">
+                <div class="pointblock">
+                    <div class="discribe">
+                        <h4>Reducing environmental pollution</h4>
+                        <p>Trees have always been considered as "lungs" of the earth.</p>
+                    </div>
+                    <div class="discribe">
+                        <h4>Save water and reduce soil erosion</h4>
+                        <p>Trees can slow down the evaporation of water, increasing<br>
+                             air humidity.</p>
+                    </div>
+                    <div class="discribe">
+                        <h4>Reduce street temperatures</h4>
+                        <p>Planting more trees in densely populated areas will not<br>
+                             only make the air there more fresh</p>
+                    </div>
+                </div>
+                <div class="pointblock">
+                    <img src="SunplantImages/asset 10.png" alt="">                    
+                </div>
+                <div class="pointblock">
+                    <div class="discribe">
+                        <h4>Energy conservation</h4>
+                        <p>One tree can cool down, cool down 10 rooms</p>
+                    </div>
+                    <div class="discribe">
+                        <h4>Prevent ultraviolet influence</h4>
+                        <p>Green trees become shade to block the sunlight from the<br>
+                             road</p>
+                    </div>
+                    <div class="discribe">
+                        <h4>Improve human health</h4>
+                        <p>Living in a quiet, cool, clean and fresh environment will<br>
+                             make your health better</p>
+                    </div>
+                </div>
+            </div>                               
+        </div>
+    </section> 
+    <section class="sectionblock itemlist">
+        <div class="container">
+            <div class="maintitle">Staff.Pic</div>
+        <div class="itemlistblock">
+            <div class="item">
+                <img src="SunplantImages/asset 25.png"alt="">
+                <div class="text">
+                    <p class="name">Sapien Libero</p>
+                    <p class="price">$150.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 13.png"alt="">
+                <div class="text">
+                    <p class="name">Fringilla Augue 360</p>
+                    <p class="price">$200.00 $150.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 15.png"alt="">
+                <div class="text">
+                    <p class="name">Faded Short Sleeves Variable</p>
+                    <p class="price">$200.00 $150.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 17.png"alt="">
+                <div class="text">
+                    <p class="name">Purple Flowers</p>
+                    <p class="price">$450.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 19.png"alt="">
+                <div class="text">
+                    <p class="name">Adipiscing Cursus Out Of Stock</p>
+                    <p class="price">$200.00 $150.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 21.png"alt="">
+                <div class="text">
+                    <p class="name">Fringilla Augue</p>
+                    <p class="price">$320.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 23.png"alt="">
+                <div class="text">
+                    <p class="name">Purple Flowers</p>
+                    <p class="price">$200.00 $150.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 25.png"alt="">
+                <div class="text">
+                    <p class="name">Plant</p>
+                    <p class="price">$200.00 $150.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="SunplantImages/asset 27.png"alt="">
+                <div class="text">
+                    <p class="name">Plant Beautiful</p>
+                    <p class="price">$150</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section> 
+    <section class="sectionblock video">
+        <div class="container">            
+            <div class="maintitle">
+                <h3>A Number Of Our Products</h3>
+                <p>Pick up all you need to keep your board in optimum condition with<br>
+                     Decathlon’s set of surfboard accessories.</p>
+                <a href="#">SHOP NOW</a>
+            </div>
+            <div class="pic"><img src="SunplantImages/asset 29.png" alt=""></div>
+        </div>
+    </section> 
+    <section class="sectionblock ins">
+        <div class="container">
+            <div class="maintitle">
+                <img src="Sunplantimages/asset 52.svg" alt="">
+                <p>SHOP INSTAGRAM</p>
+            </div>
+            <div class="pic">
+                <img src="Sunplantimages/asset 30.png" alt="">
+                <img src="Sunplantimages/asset 31.png" alt="">
+                <img src="Sunplantimages/asset 32.png" alt="">
+                <img src="Sunplantimages/asset 33.png" alt="">
+            </div>            
+        </div>
+    </section> 
+
+    <div class="footer">
+        <div class="logo"><img src="Sunplantimages/asset 6.png" alt=""></div>
+        <div class="info">
+            <a href="">ABOUT US</a>            
+            <a href="">CUSTOMER SERVICE</a>
+            <a href="">SUPSCRPTION</a>
+        </div>
+        <div class="icon">
+            <div class="circleshape">T</div>
+            <div class="circleshape">W</div>
+            <div class="circleshape">B</div>
+            <div class="circleshape">I</div>
+        </div>
+        <div class="copyright"><p>Website by ShopiLaunch . Copyright SunplantShop</p></div>
+    </div>
     
 </body>
 </html>
