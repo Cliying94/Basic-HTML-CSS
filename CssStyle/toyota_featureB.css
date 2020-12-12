@@ -1,0 +1,119 @@
+.featuresB{
+    width: 960px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;          
+}
+.featuresB .colorlump{
+    width: 439px;
+    height: 290px;            
+    background-color: #EEEEEE; 
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    }
+
+.featuresB .pic{
+    width: 695px;            
+    height: 430px; 
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    top: 135px;
+    left: 0px;
+}
+.featuresB .pic img{
+    width: 100%;
+}
+.featuresB .pic .tag{
+    width: 57px;
+    height: 36px;
+    background-color: #b11616;
+    position: absolute;    
+    z-index: 1;
+    left:-10px;
+    top: 50%;
+}
+.featuresB .pic .tag i{
+    width: 25px;
+    height: 25px;
+    color: #EEEEEE;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    padding-left: 24px;
+}
+.featuresB .point{
+    width: 682px;
+    /* height: 275px; */
+    position: absolute;
+    background-color: #cccccc;
+    top:515px;
+    right: 0px;
+    padding: 10px;
+}
+.featuresB ul{
+    /* background-color: black;
+    color: white; */
+    list-style: none;
+    counter-reset: count;
+}
+.featuresB h3{
+    color: #e00;
+    font-weight: bold;
+}
+.featuresB li{
+    background-color: transparent;
+}
+.featuresB li:before{
+    content: '•';
+    color:red;
+}
+.featuresB .discribe{
+    width: 355px;
+    height: 400px;
+
+    color: white;
+    position: absolute;
+    background-color: #000000; 
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;
+    right: 0px;
+}
+.featuresB .discribe .subtitle{
+    height: 135px;
+    width: 355px;
+    background-color: #b11616; 
+    display: flex;    
+}
+.featuresB .discribe .subtitle span:nth-child(1){
+    writing-mode: vertical-lr;
+    font-size: 138px;
+}
+.featuresB .discribe .subtitle span:nth-child(2){
+    font-size: 45px;
+    font-weight: lighter;
+    display: flex;
+    margin: auto;
+}
+.featuresB .discribe .text{
+    height: 250px;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+}
+.featuresB .discribe .text h2{    
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.featuresB .discribe .text p{
+    text-align: left;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 5px;
+    line-height: 35px;
+}  

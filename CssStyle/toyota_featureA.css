@@ -1,0 +1,121 @@
+
+.featuresA{
+    width: 960px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;          
+}
+.featuresA .colorlump{  
+    width: 439px;
+    height: 290px;            
+    background-color: #EEEEEE; 
+    display: flex;
+    position: absolute; 
+    right: 0px;
+    top: 55px;
+    z-index: -1;
+    }
+.featuresA .pic{
+    width: 695px;            
+    height: 430px; 
+    display: flex;
+    position: absolute;
+    top: 135px;
+    right: 80px;
+}
+.featuresA .pic img{
+    width: 100%;
+}
+.featuresA .pic .tag{
+    width: 57px;
+    height: 36px;
+    background-color: #b11616;
+    position: absolute;    
+    z-index: 1;
+    right:-10px;
+    top: 50%;
+}
+.featuresA .pic .tag i{
+    width: 25px;
+    height: 25px;
+    color: #EEEEEE;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    padding-left: 24px;
+}
+.featuresA .point{
+    width: 682px;
+    /* height: 275px; */
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #cccccc;
+    top:515px;
+    left: 70px;
+    margin-left: auto;
+    padding: 10px;
+}
+.featuresA ul{
+    /* background-color: black;
+    color: white; */
+    list-style: none;
+    counter-reset: count;
+}
+.featuresA h3{
+    color: #e00;
+    font-weight: bold;
+}
+.featuresA li{
+    background-color: transparent;
+}
+.featuresA li:before{
+    content: '•';
+    color:red;
+}
+.featuresA .discribe{
+    width: 355px;
+    height: 400px;
+
+    color: white;
+    position: absolute;
+    background-color: #000000; 
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;
+}
+.featuresA .discribe .subtitle{
+    height: 135px;
+    width: 355px;
+    background-color: #b11616; 
+    display: flex;    
+}
+.featuresA .discribe .subtitle span:nth-child(1){
+    writing-mode: vertical-lr;
+    font-size: 138px;
+}
+.featuresA .discribe .subtitle span:nth-child(2){
+    font-size: 45px;
+    font-weight: lighter;
+    display: flex;
+    margin: auto;
+}
+.featuresA .discribe .text{
+    height: 250px;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+}
+.featuresA .discribe .text h2{    
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.featuresA .discribe .text p{
+    text-align: left;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 5px;
+    line-height: 35px;
+}  
