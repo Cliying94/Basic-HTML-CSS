@@ -54,15 +54,26 @@
     right: 0px;
     padding: 10px;
 }
-.featuresB ul{
-    /* background-color: black;
-    color: white; */
+.featuresB ul{    
     list-style: none;
     counter-reset: count;
+}
+.featuresB .point span{
+    background-color: black;
+    color: white; 
 }
 .featuresB h3{
     color: #e00;
     font-weight: bold;
+}
+.featuresB h3:after{
+    position: absolute;
+    background: #e00;
+    content: "";
+    height: 1px;
+    width: 65%;
+    top: 40px;
+    right: 1rem;    
 }
 .featuresB li{
     background-color: transparent;

@@ -57,15 +57,26 @@
     margin-left: auto;
     padding: 10px;
 }
-.featuresA ul{
-    /* background-color: black;
-    color: white; */
+.featuresA ul{    
     list-style: none;
     counter-reset: count;
+}
+.featuresA .point span{
+    background-color: black;
+    color: white; 
 }
 .featuresA h3{
     color: #e00;
     font-weight: bold;
+}
+.featuresA h3:after{
+    position: absolute;
+    background: #e00;
+    content: "";
+    height: 1px;
+    width: 65%;
+    top: 40px;
+    right: 1rem;    
 }
 .featuresA li{
     background-color: transparent;
