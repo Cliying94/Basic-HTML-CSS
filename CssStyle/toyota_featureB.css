@@ -1,10 +1,15 @@
+.body{
+    display: flex;
+}
 .featuresB{
     width: 960px;
-    height: 700px;
+    height: 660px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    position: relative;          
+    position: relative; 
+    border: #000000 1px solid;
+
 }
 .featuresB .colorlump{
     width: 439px;
